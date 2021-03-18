@@ -10,8 +10,8 @@ html {
 }
 
 .pre-loader {
-  position: fixed;
-  height: 100%;
+  position: relative;
+  height: 40px;
   width: 100%;
   top: 0;
   left: 0;
@@ -27,16 +27,22 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  background: #27FD61;
+  color: black;
 }
 
 .pre-loader .pre-content img {
-  height: 100vh;
   display: inline-block;
   width: 100%;
 }
 
+.pre-loader .pre-content p {
+  font-size: 24px;
+  line-height: 40px;
+}
+
 .main {
-  display: none;
   -webkit-animation: fade 0.5s linear;
           animation: fade 0.5s linear;
 }

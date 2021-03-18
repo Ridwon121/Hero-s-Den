@@ -6,7 +6,7 @@ window.onload = function () {
     let main = document.getElementById('main');
     let pre = document.getElementById('loader');
     
-    main.style.display = 'block' ;
+    // main.style.display = 'block' ;
     pre.style.display = 'none' ;
     
 }
