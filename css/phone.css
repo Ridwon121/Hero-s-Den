@@ -1,86 +1,38 @@
-@media (max-width : 700px) {
+@media (max-width : 550px) {
+    header .nav ul li a {
+        font-size: 1rem;
+        padding: 0 8px;
 
+    }
     .header .header-text h1 {
-        font-size: 1.5em;
+       display: none;
+     
     }
-
     .header .header-text p {
-        font-size: 1em;
+        visibility: hidden;
+    
     }
-    header .achivement h3 {
-        font-size: 24px;
-        line-height: 50px;
+
+    .header .img-box {
+        position: absolute;
+        top: 0;
+        left: 25%;
+
     }
-    header .achivement p {
+    .yt .yt-links .main-btn .btn {
+        width: 200px;
+        margin: 0;
+    }
+    .yt .yt-links .main-btn span {
+        width: 200px;
+    }
+    .yt .yt-links .main-btn h3 {
+        font-size: 1rem;
+    }
+    .games .filter span {
+        padding: 10px 20px;
+        margin: 0;
         font-size: 16px;
-        line-height: 50px;
-        margin-left: 20px;
-        width: 500px;
+       
     }
-    .banner-text {
-        width: 100%;
-    }
-    .banner .content {
-       text-align: center;
-       width: 100%;
-    }
-    .banner-img{
-        display: none;
-    }
-
-    .banner-btn {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        position: relative;
-        right: 50px;
-    }
-
-    .grid {
-        display: block;
-    }
-
-    .games-list-ilem {
-        margin: 40px;
-    }
-
-    .bio-data.flex {
-        flex-direction: column;
-    }
-
-    .about .bio-data .img-box {
-        width: 62%;
-        border: 2px solid white;
-        padding: 10px;
-    }
-    .about .bio-data .img-box img {
-        width: 100%;
-        border: 2px solid white;
-    }
-    .hover-card {
-        margin-top: 60px;
-    }
-    .about .bio-data .img-box p {
-        font-size: 24px;
-        color: white;
-        text-align: center;
-    }
-    .yt .yt-video {
-        display: block;
-        width: auto;
-        margin-top: 80px;
-    }
-    .yt .yt-video .yt-last-vid {
-        padding: 0 2rem;
-        margin: 80px 0;
-    }
-    .yt .yt-links {
- 
-        margin: 40px 0;
-    }
-    .contact.flex .contact-content .contact-form {
-        
-        margin-left: 0px;
-    }
-
 }
