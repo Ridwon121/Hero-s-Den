@@ -4,6 +4,17 @@
         padding: 0 8px;
 
     }
+
+    @keyframes danim {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-450%);
+        }
+        
+    }
+
     .header .header-text h1 {
        display: none;
      
