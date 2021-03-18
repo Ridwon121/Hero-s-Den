@@ -918,35 +918,35 @@ header .achivement p {
 }
 
 .games .games-list .games-list-ilem:nth-child(2) {
-  background: url("https://media.giphy.com/media/iePoEdFiOvVhz89n2h/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/cod.gif") no-repeat center center/cover;
   color: white;
 }
 
 .games .games-list .games-list-ilem:nth-child(3) {
-  background: url("https://media.giphy.com/media/cztB1jXXhNqWA/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/pubg.gif") no-repeat center center/cover;
   color: white;
 }
 
 .games .games-list .games-list-ilem:nth-child(4) {
-  background: url("https://media.giphy.com/media/i7NLlLUaaG9u8/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/minecraft.gif") no-repeat center center/cover;
   color: white;
 }
 
 .games .games-list .games-list-ilem:nth-child(5) {
-  background: url("https://media.giphy.com/media/3oEduGzkdvam26MrXG/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/gta.gif") no-repeat center center/cover;
 }
 
 .games .games-list .games-list-ilem:nth-child(6) {
-  background: url("https://media.giphy.com/media/rcLvBCW7cMzYeE1CEQ/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/gi.gif") no-repeat center center/cover;
   color: white;
 }
 
 .games .games-list .games-list-ilem:nth-child(7) {
-  background: url("https://pa1.narvii.com/6844/fc3a55720087eb1002ac0b80ff2971bfeff82c73_hq.gif") no-repeat center center/cover;
+  background: url("../img/gifs/zc.gif") no-repeat center center/cover;
 }
 
 .games .games-list .games-list-ilem:nth-child(8) {
-  background: url("https://media.giphy.com/media/6JGnTNj2xBIqs/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/pokemon.gif") no-repeat center center/cover;
   color: white;
 }
 
