@@ -85,7 +85,7 @@
     .yt .yt-video {
         display: block;
         width: auto;
-        margin-top: 80px;
+        margin-top: 0px;
     }
     .yt .yt-video .yt-last-vid {
         padding: 0 2rem;

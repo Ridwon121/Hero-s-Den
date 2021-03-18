@@ -303,6 +303,7 @@ a {
     border-radius: 50%;
     display: none;
     animation: fade 0.5s linear;
+    z-index: 199;
 
     &:hover {
         box-shadow: 0 2px 10px white;
@@ -490,14 +491,33 @@ header {
         font-size: 20px;
         bottom: -1%;
         left: 0;
-        display: flex;
         justify-content: center;
-        border: 2px solid white ;
         border-bottom: none;
         
-        
-        
-    
+        .d-container{
+            position: relative;
+            border: 2px solid white ;
+            height: 100%;
+            width: 100%;
+            top: 2px;
+            
+            .d-anim {
+                display: flex;
+                animation: danim 20s linear infinite;
+                
+            }
+
+            @keyframes danim {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-250%);
+                }
+                
+            }
+
+        }
         
         .d1 , .d2 {
             display: flex;
@@ -510,25 +530,25 @@ header {
 
         }
 
-        .d1 {
-            animation: do;
-            animation-duration: 30s;
-            animation-iteration-count: infinite;
-            display: flex;
-            margin: 0 20px;
-            height: 50px;
-        }
-        .d2 {
-            animation: doooo;
-            animation-duration: 40s;
-            animation-delay: 5s;
-            display: flex;
-            animation-iteration-count: infinite;
-            // margin: 0 20px;
-            height: 50px;
-            // transform: translateX(120%);
-            opacity: 0;
-             }
+        // .d1 {
+        //     animation: do;
+        //     animation-duration: 30s;
+        //     animation-iteration-count: infinite;
+        //     display: flex;
+        //     margin: 0 20px;
+        //     height: 50px;
+        // }
+        // .d2 {
+        //     animation: doooo;
+        //     animation-duration: 30s;
+        //     animation-delay: 5s;
+        //     display: flex;
+        //     animation-iteration-count: infinite;
+        //     // margin: 0 20px;
+        //     height: 50px;
+        //     // transform: translateX(120%);
+        //     opacity: 0;
+        //      }
             
         
             
@@ -591,6 +611,10 @@ header {
     border: 2px solid rgb(255, 255, 255) ;
     position: relative;
     background: rgba(0, 0, 0, 0.774);
+
+    &.section {
+        min-height: 100vh;
+    }
     
 
     &::before{
