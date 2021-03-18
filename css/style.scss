@@ -477,6 +477,7 @@ header {
     }
 
     .achivement {
+        width: 100%;
         position: absolute;
         font-size: 20px;
         bottom: -1%;
@@ -845,7 +846,7 @@ header {
             }
         }
         .games-list-ilem:nth-child(1){
-            background: url('https://media.giphy.com/media/dScVH2piwOUiP12GPG/giphy.gif') no-repeat center center/cover;
+            background: url('../img/gifs/ff.gif') no-repeat center center/cover;
         }
         .games-list-ilem:nth-child(2){
             background: url('https://media.giphy.com/media/iePoEdFiOvVhz89n2h/giphy.gif') no-repeat center center/cover;

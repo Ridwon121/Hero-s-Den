@@ -514,6 +514,7 @@ header .nav ul li a {
 }
 
 header .achivement {
+  width: 100%;
   position: absolute;
   font-size: 20px;
   bottom: -1%;
@@ -906,7 +907,7 @@ header .achivement p {
 }
 
 .games .games-list .games-list-ilem:nth-child(1) {
-  background: url("https://media.giphy.com/media/dScVH2piwOUiP12GPG/giphy.gif") no-repeat center center/cover;
+  background: url("../img/gifs/ff.gif") no-repeat center center/cover;
 }
 
 .games .games-list .games-list-ilem:nth-child(2) {
